@@ -1,0 +1,98 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  header {
+    background: #111;
+    padding: 1rem;
+  }
+  
+  .nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo {
+    width: 120px;
+  }
+  
+  .main {
+    background: url('netflix-background.jpg') center/cover no-repeat;
+    height: 90vh;
+    color: #fff;
+    display: flex;
+    align-items: center;
+  }
+  
+  .banner {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 3rem;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .content h1 {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .content p {
+    font-size: 1.2rem;
+    max-width: 600px;
+    margin-bottom: 1.5rem;
+    line-height: 1.5;
+  }
+  
+  .email-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .email-form input {
+    padding: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .email-form button {
+    background-color: #e50914;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  footer {
+    background: #111;
+    padding: 1rem;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  li {
+    cursor: pointer;
+  }
+  
